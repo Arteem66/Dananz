@@ -1,0 +1,65 @@
+.home-design {
+	margin-bottom: 160px;
+}
+.design__wrappper {
+	display: flex;
+	flex-direction: column;
+	gap: 46px;
+}
+.design-head {
+	align-items: start;
+	position: relative;
+}
+
+.design-head__title {
+	max-width: 680px;
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 140%;
+}
+
+.design-head__line {
+	margin: 50px 0 0 -150px;
+	width: 600px;
+}
+
+.rights {
+	position: absolute;
+	bottom: 60px;
+	right: -60px;
+
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 150%;
+	rotate: (-90deg);
+}
+
+.design__img-box {
+	position: relative;
+	width: 100%;
+}
+
+.company__statistics {
+	position: absolute;
+	right: 120px;
+	top: -155px;
+	display: flex;
+	flex-direction: column;
+	gap: 57px;
+	padding: 40px;
+	background-color: $secondary-color;
+}
+
+.statistic {
+	text-align: center;
+	color: $white;
+}
+
+.quantity {
+	font-size: 52px;
+  line-height: 130%;
+}
+
+.statistic-name{
+  line-height: 160%; /* 25.6px */
+}

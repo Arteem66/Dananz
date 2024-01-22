@@ -1,0 +1,41 @@
+.home-about {
+	margin-bottom: 160px;
+}
+.home_about-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+.home_about-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.feedback {
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 170%;
+}
+
+.about__more {
+	display: flex;
+	gap: 90px;
+	align-items: center;
+}
+.about__img-box {
+	max-width: 880px;
+}
+
+.text-info {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	max-width: 230px;
+}
+
+.text {
+	color: #9c9c9c;
+	font-size: 18px;
+	line-height: 160%;
+}

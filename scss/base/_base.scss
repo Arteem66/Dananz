@@ -1,0 +1,55 @@
+body {
+	font-family: $main-font;
+	color: $main-color;
+	font-size: 0.875rem;
+}
+
+a {
+	transition: all 0.3s;
+
+	&:hover {
+		color: $secondary-color;
+	}
+}
+
+img{
+	width: 100%;
+}
+
+.container {
+	max-width: 1210px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.header {
+	padding: 40px 0;
+}
+
+.main {
+	padding: 64px 0;
+}
+
+.def-button {
+  padding: 14px 32px;
+  color: $white;
+  background-color: $secondary-color;
+	max-width: 142px;
+}
+
+.head {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 20px;
+}
+.head__title {
+	color: $accent-color;
+	font-weight: 500;
+	line-height: 150%;
+}
+.head__line {
+	width: 530px;
+	height: 2px;
+	background-color: $accent-color;
+}
