@@ -1,0 +1,48 @@
+.team-designer {
+	margin-bottom: 120px;
+}
+
+.team__designer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.designers__list {
+	display: flex;
+  justify-content: center;
+	gap: 24px;
+	flex-wrap: wrap;
+}
+.designers__card {
+	position: relative;
+	background-color: $secondary-color;
+	height: 385px;
+	display: flex;
+	align-items: end;
+  padding: 12px;
+  width: 260px;
+}
+.designer-img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.designer__info {
+	background-color: $white;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+  width: 100%;
+  z-index: 1;
+}
+.designer__name {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 140%; /* 33.6px */
+}
+.designer__post {
+	color: #9c9c9c;
+	font-size: 16px;
+	line-height: 160%; /* 25.6px */
+}

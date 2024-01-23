@@ -1,0 +1,32 @@
+.about-achievement {
+  margin-bottom: 120px;
+}
+
+.about__achievement-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.about__achievement-head {
+  display: flex;
+  flex-direction: column;
+}
+.head__subtitle-about{
+  max-width: 730px;
+}
+.about__achievement-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.about__achievement-img {
+  max-width: 830px;
+}
+.achievement {
+	display: flex;
+	flex-direction: column;
+	gap: 70px;
+	padding: 40px;
+	background-color: $secondary-color;
+}

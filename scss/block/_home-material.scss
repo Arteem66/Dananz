@@ -32,7 +32,8 @@
 	font-weight: 500;
 
 	&:hover {
-		color: #333;
+		color: $white;
+		background-color: $secondary-color;
 	}
 }
 .home__material-img {

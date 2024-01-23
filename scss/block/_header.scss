@@ -9,15 +9,24 @@
 }
 .navigation__list {
 	display: flex;
-	gap: 74px;
+  gap: 10px;
 }
 .navigation__item {
+  
 }
 .navigation__link {
   line-height: 160%;
   transition: all .3s;
+  padding: 14px 32px;
+  transition: all .3s;
+
+  &:hover{
+    border-radius: 10px;
+    background-color: $secondary-color;
+    color: $white;
+  }
   &-active{
-    line-height: 140%;
+    line-height: 160%;
     font-weight: 600;
   }
 }
