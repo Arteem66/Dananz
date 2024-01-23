@@ -1,0 +1,34 @@
+.home-contact {
+	background-color: $secondary-color;
+	color: $white;
+}
+.home_contact-wrappper {
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+	padding: 40px 0;
+}
+.home__contact-title {
+	max-width: 615px;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 170%; /* 61.2px */
+}
+.home__contact-block {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+  max-width: 430px;
+}
+.home__contact-descr {
+	color: #d9d9d9;
+	font-size: 18px;
+	line-height: 160%; /* 28.8px */
+}
+.contact-button {
+  background-color: $white;
+  color: $main-color;
+  &:hover{
+    color: $main-color;
+  }
+}

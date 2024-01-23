@@ -12,7 +12,7 @@ a {
 	}
 }
 
-img{
+img {
 	width: 100%;
 }
 
@@ -31,10 +31,16 @@ img{
 }
 
 .def-button {
-  padding: 14px 32px;
-  color: $white;
-  background-color: $secondary-color;
-	max-width: 142px;
+	padding: 14px 32px;
+	color: $white;
+	background-color: $secondary-color;
+	max-width: 160px;
+	transition: all 0.3s;
+
+	&:hover {
+		color: $white;
+		transform: scale(1.1);
+	}
 }
 
 .head {
@@ -52,4 +58,17 @@ img{
 	width: 530px;
 	height: 2px;
 	background-color: $accent-color;
+}
+
+.head__subtitle {
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 160%;
+}
+
+.head__descr {
+	max-width: 475px;
+	color: #9c9c9c;
+	font-size: 18px;
+	line-height: 160%;
 }

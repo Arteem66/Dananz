@@ -2,26 +2,23 @@
 	margin-bottom: 160px;
 }
 .home_service-wrapper {
+	position: relative;
 	display: flex;
 	flex-direction: column;
+	padding-bottom: 360px;
 }
 .service__info {
 	display: flex;
 	flex-direction: column;
 	max-width: 880px;
+	background-color: $white;
+	padding: 40px;
 }
-.service__info-title {
-	font-size: 36px;
-	font-weight: 600;
-	line-height: 170%; /* 61.2px */
-}
-.service__info-subtitle {
-	color: #9c9c9c;
-	font-size: 18px;
-	line-height: 160%; /* 28.8px */
-	max-width: 470px;
+
+.head__descr-service{
 	margin-bottom: 40px;
 }
+
 .service__argan {
 	font-size: 24px;
 	font-weight: 600;
@@ -43,4 +40,12 @@
 .argan-arrow {
 	width: 32px;
 	height: 32px;
+}
+
+.service-img{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	max-width: 1050px;
 }
