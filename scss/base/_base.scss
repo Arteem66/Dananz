@@ -34,7 +34,7 @@ img {
 	text-align: center;
 	line-height: 160%;
 	padding: 14px 32px;
-	max-width: 160px;
+	max-width: 200px;
 	border-radius: 2.5px;
 	color: $white;
 	background-color: $secondary-color;
@@ -80,7 +80,7 @@ img {
 // =================PREVIEW==================
 
 .preview {
-	padding: 0 0 40px;
+	margin-bottom: 120px;
 }
 .preview__wrapper {
 	display: flex;

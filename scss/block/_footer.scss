@@ -11,8 +11,11 @@
 	flex-direction: column;
 	gap: 10px;
 
+}
+.footer__logo{
+	max-width: 125px;
 	img {
-		width: 125px;
+		width: 100%;
 	}
 }
 .footer__recom {
