@@ -9,25 +9,33 @@
 }
 .navigation__list {
 	display: flex;
-  gap: 10px;
+	gap: 10px;
 }
 .navigation__item {
-  
 }
 .navigation__link {
-  line-height: 160%;
-  transition: all .3s;
-  padding: 14px 32px;
-  transition: all .3s;
+	line-height: 160%;
+	transition: all 0.3s;
+	padding: 14px 32px;
+	transition: all 0.3s;
 
-  &:hover{
-    border-radius: 10px;
-    background-color: $secondary-color;
-    color: $white;
-  }
-  &-active{
-    line-height: 160%;
-    font-weight: 600;
-  }
+	&:hover {
+		border-radius: 10px;
+		background-color: $secondary-color;
+		color: $white;
+	}
+	&-active {
+		line-height: 160%;
+		font-weight: 600;
+	}
 }
+.burger {
+	display: none;
+}
+.burger__line {
+	width: 100%;
+	height: 4px;
+	background-color: $secondary-color;
+}
+
 

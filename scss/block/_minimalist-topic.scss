@@ -38,8 +38,6 @@
 	font-size: 16px;
 	line-height: 160%;
 }
-.overview__data {
-}
 .process {
   display: flex;
   flex-direction: column;
@@ -71,6 +69,7 @@
 
   &-mini{
     display: flex;
+    max-width: 50%;
     gap: 32px;
   }
 }

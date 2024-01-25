@@ -24,6 +24,7 @@ img {
 
 .header {
 	padding: 40px 0;
+	z-index: 5;
 }
 
 .main {
@@ -83,6 +84,7 @@ img {
 	margin-bottom: 120px;
 }
 .preview__wrapper {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	gap: 80px;
@@ -107,6 +109,15 @@ img {
 }
 .preview__img {
 	width: 100%;
+}
+
+.room-exit{
+	position: absolute;
+	top: 25px;
+	left: 30px;
+	width: 32px;
+	height: 32px;
+	rotate: 180deg;
 }
 
 .anchor {
