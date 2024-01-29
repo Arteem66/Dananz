@@ -15,6 +15,7 @@
 	display: flex;
 	justify-content: space-between;
   align-items: center;
+	gap: 30px;
 }
 .achievment__item-img {
 	max-width: 750px;
@@ -28,10 +29,6 @@
 .achievment__item-title {
 	font-size: 24px;
 	font-weight: 600;
-	line-height: 140%;
+	line-height: 160%;
 }
-.achievment__item-descr {
-	color: #9c9c9c;
-	font-size: 18px;
-	line-height: 160%; /* 28.8px */
-}
+

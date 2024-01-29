@@ -14,17 +14,8 @@
 	display: flex;
 	justify-content: space-between;
 }
-.product__themes {
+.product__subtitle{
 	max-width: 340px;
-	font-size: 36px;
-	font-weight: 600;
-	line-height: 170%;
-}
-.product__themes-descr {
-	max-width: 475px;
-	color: #9c9c9c;
-	font-size: 18px;
-	line-height: 160%; /* 28.8px */
 }
 .product__argan {
 	display: flex;
@@ -52,8 +43,7 @@
 // .item__info-theme {
 // }
 .item__info-descr {
+	font-size: 16px;
+	line-height: 120%;
 	max-width: 470px;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 160%; /* 28.8px */
 }
