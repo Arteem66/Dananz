@@ -3,15 +3,19 @@
 }
 
 .team__designer-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+}
+.swiper{
+	width: 100%;
 }
 .designers__list {
 	display: flex;
-  justify-content: center;
+	justify-content: center;
 	gap: 24px;
 	flex-wrap: wrap;
+	position: relative;
 }
 .designers__card {
 	position: relative;
@@ -19,9 +23,10 @@
 	height: 385px;
 	display: flex;
 	align-items: end;
-  padding: 12px;
-  width: 260px;
+	padding: 12px;
+	width: 260px;
 }
+
 .designer-img {
 	position: absolute;
 	bottom: 0;
@@ -33,8 +38,8 @@
 	padding: 16px;
 	display: flex;
 	flex-direction: column;
-  width: 100%;
-  z-index: 1;
+	width: 100%;
+	z-index: 1;
 }
 .designer__name {
 	font-size: 24px;
@@ -46,3 +51,29 @@
 	font-size: 16px;
 	line-height: 160%; /* 25.6px */
 }
+
+.swiper-button-prev, .swiper-button-next{
+	z-index: 2;
+}
+
+// .arrow-prev {
+// 	top: 50%;
+// 	left: 0;
+// 	transform: translateY(-50%);
+// 	transform: rotate(180deg);
+// }
+
+// .arrow-next {
+// 	top: 50%;
+// 	transform: translateY(-50%);
+// 	right: 0;
+// }
+
+// .arrow-slide {
+// 	background-color: transparent;
+// 	position: absolute;
+// }
+
+// .arrow-hidden{
+// 	display: none;
+// }

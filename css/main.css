@@ -225,10 +225,22 @@ img {
   text-align: center;
 }
 
+.preview__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
 .preview__title {
   font-size: 56px;
   font-weight: 700;
   line-height: 140%; /* 78.4px */
+  margin: 0 auto;
 }
 
 .preveiw__subtitle {
@@ -240,15 +252,6 @@ img {
 
 .preview__img {
   width: 100%;
-}
-
-.room-exit {
-  position: absolute;
-  top: 25px;
-  left: 30px;
-  width: 32px;
-  height: 32px;
-  rotate: 180deg;
 }
 
 .anchor {
@@ -979,6 +982,10 @@ img {
   gap: 80px;
 }
 
+.swiper {
+  width: 100%;
+}
+
 .designers__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -989,6 +996,7 @@ img {
   gap: 24px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: relative;
 }
 
 .designers__card {
@@ -1036,6 +1044,10 @@ img {
   color: #9c9c9c;
   font-size: 16px;
   line-height: 160%; /* 25.6px */
+}
+
+.swiper-button-prev, .swiper-button-next {
+  z-index: 2;
 }
 
 .preview__feedback {
@@ -1475,6 +1487,16 @@ img {
   gap: 32px;
 }
 
+.room__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -30px;
+}
+
 .footer {
   padding: 0 0 80px 0;
 }
@@ -1621,6 +1643,17 @@ img {
 @media screen and (max-width: 1230px) {
   .head__descr-material {
     width: 350px;
+  }
+  .designers__card {
+    max-width: 260px;
+  }
+  .designers__list {
+    gap: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0 35px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -1849,6 +1882,7 @@ img {
   .preview,
   .contact-location,
   .portfolio,
+  .topic-room,
   .home-material {
     margin-bottom: 80px;
   }
@@ -2054,6 +2088,7 @@ img {
   .preview,
   .contact-location,
   .portfolio,
+  .topic-room,
   .home-material {
     margin-bottom: 60px;
   }

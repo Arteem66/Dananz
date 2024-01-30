@@ -115,10 +115,17 @@ img {
 	gap: 35px;
 	text-align: center;
 }
+.preview__box{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	width: 100%;
+}
 .preview__title {
 	font-size: 56px;
 	font-weight: 700;
 	line-height: 140%; /* 78.4px */
+	margin: 0 auto;
 }
 .preveiw__subtitle {
 	max-width: 580px;
@@ -126,18 +133,12 @@ img {
 	font-weight: 400;
 	line-height: 160%; /* 28.8px */
 }
+
 .preview__img {
 	width: 100%;
 }
 
-.room-exit {
-	position: absolute;
-	top: 25px;
-	left: 30px;
-	width: 32px;
-	height: 32px;
-	rotate: 180deg;
-}
+
 
 .anchor {
 	position: absolute;
