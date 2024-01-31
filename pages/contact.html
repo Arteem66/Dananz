@@ -67,20 +67,20 @@
 							</p>
 						</div>
 						<div class="preview__feedback">
-							<form action="" class="feedback__form">
+							<form class="feedback__form">
 								<div class="form__person-info">
 									<div class="person__name form-row">
 										<label class="input__title" for="Email">First Name</label>
-										<input placeholder="First Name" type="text" required/>
+										<input name="firstName" placeholder="First Name" type="text" required/>
 									</div>
 									<div class="person__secondname form-row">
 										<label class="input__title" for="Email">Second</label>
-										<input placeholder="Second Name" type="text" required/>
+										<input name="secondName" placeholder="Second Name" type="text" required/>
 									</div>
 								</div>
 								<div class="form-row">
 									<label class="input__title" for="Email">Email</label>
-									<input type="email" placeholder="Email" required/>
+									<input name="email" type="email" placeholder="Email" required/>
 								</div>
 								<div class="form-row">
 									<label class="input__title" for="Phone Number"
@@ -91,17 +91,23 @@
 											<option value="US">US</option>
 											<option value="US">RU</option>
 										</select>
-										<input type="tel" placeholder="Phone Number" required/>
+										<input name="phone" type="tel" placeholder="Phone Number" required/>
 									</div>
 								</div>
 								<div class="form-row">
 									<label class="input__title" for="Message">Message</label>
-									<textarea name="" id="" cols="30" rows="10" required></textarea>
+									<textarea name="message" id="" cols="30" rows="10" required></textarea>
 								</div>
 								<button class="def-button person__form-button" type="submit">
 									Send Message
 								</button>
 							</form>
+						</div>
+						<div class="popup__wrapper hidden">
+							<div class="popup__answerBack">
+								<p class="popup__text"></p>
+								<button class="popup__exit def-button">Сlose</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -278,6 +284,7 @@
 				</div>
 			</div>
 		</footer>
+		<script src="../js/formScript.js"></script>
 		<script src="../script.js"></script>
 	</body>
 </html>

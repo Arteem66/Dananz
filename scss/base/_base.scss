@@ -138,7 +138,17 @@ img {
 	width: 100%;
 }
 
+.hidden{
+	display: none !important;
+}
 
+.noscroll{
+	overflow: hidden;
+}
+
+.noevent{
+	pointer-events: none;
+}
 
 .anchor {
 	position: absolute;
