@@ -2081,23 +2081,38 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    background-color: #ffffff;
+    padding: 0 40px;
+    gap: 10px;
+  }
+  .statistic {
+    background-color: #2C3878;
+    padding: 10px;
   }
   .statistic-left {
-    text-align: start;
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
   }
   .statistic-center {
-    text-align: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .statistic-right {
-    text-align: end;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
   }
   .achievement {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    background-color: #ffffff;
     width: 100%;
-    gap: 25px;
+    padding: 0 40px;
+    gap: 10px;
   }
   .contact__location-body {
     -webkit-box-orient: vertical;

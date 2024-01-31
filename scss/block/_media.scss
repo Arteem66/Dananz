@@ -380,6 +380,7 @@
 
 	// --------home-design-------
 
+
 	.design-head__line {
 		display: none;
 	}
@@ -390,24 +391,34 @@
 
 	.company__statistics {
 		flex-direction: column;
+		background-color: $white;
+		padding: 0 40px;
+		gap: 10px;
+	}
+
+	.statistic{
+		background-color: $secondary-color;
+		padding: 10px;
 	}
 
 	.statistic-left {
-		text-align: start;
+		align-self: start;
 	}
 	.statistic-center {
-		text-align: center;
+		align-self: center;
 	}
 	.statistic-right {
-		text-align: end;
+		align-self: end;
 	}
 
 	// --------about-achievment-------
 
 	.achievement {
 		flex-direction: column;
+		background-color: $white;
 		width: 100%;
-		gap: 25px;
+		padding: 0 40px;
+		gap: 10px;
 	}
 
 	// --------contact-location-------
@@ -607,6 +618,9 @@
 	.active__list {
 		align-items: start;
 	}
+	// --------home-design-------
+
+
 	// --------home-contact-------
 
 	.home__contact-title {
