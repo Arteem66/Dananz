@@ -995,7 +995,11 @@ img {
 }
 
 .swiper {
-  width: 100%;
+  overflow: auto;
+}
+
+.swiper-slide {
+  max-width: 260px;
 }
 
 .designers__list {
@@ -1699,15 +1703,18 @@ img {
     width: 350px;
   }
   .designers__card {
-    max-width: 260px;
+    margin: 0 auto;
   }
-  .designers__list {
-    gap: 0;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    padding: 0 35px;
+  .swiper-slide {
+    max-width: 100%;
+  }
+  .swiper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
+    padding: 30px 40px;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -2146,6 +2153,18 @@ img {
     max-width: 200px;
   }
 }
+@media screen and (max-width: 500px) {
+  .designers__card {
+    max-width: 200px;
+    height: 300px;
+  }
+  .designer__name {
+    font-size: 18px;
+  }
+  .designer__post {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 470px) {
   .home-design,
   .home-about,
@@ -2265,6 +2284,20 @@ img {
   }
   .portfolio__body-style {
     gap: 10px;
+  }
+  .swiper {
+    padding: 0 0 60px;
+  }
+  .swiper-button-prev {
+    bottom: 0px;
+    top: auto;
+  }
+  .swiper-button-next {
+    bottom: 0px;
+    top: auto;
+  }
+  .swiper-pagination {
+    margin-bottom: 8px;
   }
 }
 @media screen and (max-width: 350px) {

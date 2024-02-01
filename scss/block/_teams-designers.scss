@@ -7,9 +7,15 @@
 	flex-direction: column;
 	gap: 80px;
 }
+
 .swiper{
-	width: 100%;
+	overflow: auto;
 }
+
+.swiper-slide{
+	max-width: 260px;
+}
+
 .designers__list {
 	display: flex;
 	justify-content: center;
