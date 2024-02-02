@@ -5,6 +5,7 @@ const pageWidth = document.documentElement.scrollWidth
 const swiper = new Swiper('.swiper', {
 	// Optional parameters
 	direction: 'horizontal',
+	loop:true,
 	
 	// If we need pagination
 	pagination: {
@@ -25,7 +26,7 @@ const swiper = new Swiper('.swiper', {
 			slidesPerView: 3,
 			enabled: true,
 		},
-		780: {
+		750: {
 			slidesPerView: 2,
 			enabled: true,
 		},
