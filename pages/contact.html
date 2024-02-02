@@ -10,6 +10,10 @@
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
 
 		<link rel="stylesheet" href="../css/main.css" />
 		<link rel="stylesheet" href="../scss/main.scss" />
@@ -71,16 +75,31 @@
 								<div class="form__person-info">
 									<div class="person__name form-row">
 										<label class="input__title" for="Email">First Name</label>
-										<input name="firstName" placeholder="First Name" type="text" required/>
+										<input
+											name="firstName"
+											placeholder="First Name"
+											type="text"
+											required
+										/>
 									</div>
 									<div class="person__secondname form-row">
 										<label class="input__title" for="Email">Second</label>
-										<input name="secondName" placeholder="Second Name" type="text" required/>
+										<input
+											name="secondName"
+											placeholder="Second Name"
+											type="text"
+											required
+										/>
 									</div>
 								</div>
 								<div class="form-row">
 									<label class="input__title" for="Email">Email</label>
-									<input name="email" type="email" placeholder="Email" required/>
+									<input
+										name="email"
+										type="email"
+										placeholder="Email"
+										required
+									/>
 								</div>
 								<div class="form-row">
 									<label class="input__title" for="Phone Number"
@@ -91,12 +110,23 @@
 											<option value="US">US</option>
 											<option value="US">RU</option>
 										</select>
-										<input name="phone" type="tel" placeholder="Phone Number" required/>
+										<input
+											name="phone"
+											type="tel"
+											placeholder="Phone Number"
+											required
+										/>
 									</div>
 								</div>
 								<div class="form-row">
 									<label class="input__title" for="Message">Message</label>
-									<textarea name="message" id="" cols="30" rows="10" required></textarea>
+									<textarea
+										name="message"
+										id=""
+										cols="30"
+										rows="10"
+										required
+									></textarea>
 								</div>
 								<button class="def-button person__form-button" type="submit">
 									Send Message
@@ -134,23 +164,53 @@
 									<p class="info__contact">+62 815 002 1000</p>
 								</div>
 							</div>
-							<div class="location__body-right">
-								<div class="store">
-									<h3 class="store__name-country">Jakarta</h3>
-									<p class="store__descr">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
+							<div class="swiper">
+								<div class="swiper-wrapper location__body-right">
+									<div class="swiper-slide">
+										<div class="store">
+											<h3 class="store__name-country">Jakarta</h3>
+											<p class="store__descr">
+												Customize your interior design into a dream place with
+												the best designers and quality furniture. We try our
+												best to fulfill your expectations.
+											</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="store">
+											<h3 class="store__name-country">Surakarta</h3>
+											<p class="store__descr">
+												Customize your interior design into a dream place with
+												the best designers and quality furniture. We try our
+												best to fulfill your expectations.
+											</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="store">
+											<h3 class="store__name-country">Yogyakarta</h3>
+											<p class="store__descr">
+												Customize your interior design into a dream place with
+												the best designers and quality furniture. We try our
+												best to fulfill your expectations.
+											</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="store">
+											<h3 class="store__name-country">Bandung</h3>
+											<p class="store__descr">
+												Customize your interior design into a dream place with
+												the best designers and quality furniture. We try our
+												best to fulfill your expectations.
+											</p>
+										</div>
+									</div>
 								</div>
-								<div class="store">
-									<h3 class="store__name-country">Surakarta</h3>
-									<p class="store__descr">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
-								</div>
-								<div class="store">
-									<h3 class="store__name-country">Yogyakarta</h3>
-									<p class="store__descr">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
-								</div>
-								<div class="store">
-									<h3 class="store__name-country">Bandung</h3>
-									<p class="store__descr">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
-								</div>
+								<div class="swiper-pagination"></div>
+
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
 							</div>
 						</div>
 					</div>
@@ -284,6 +344,8 @@
 				</div>
 			</div>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="../js/contactSwiper.js"></script>
 		<script src="../js/formScript.js"></script>
 		<script src="../script.js"></script>
 	</body>

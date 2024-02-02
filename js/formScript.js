@@ -1,9 +1,8 @@
 const form = document.querySelector('.feedback__form')
-const formButton = document.querySelector('.person__form-button')
 const popup = document.querySelector('.popup__wrapper')
 const popupExit = document.querySelector('.popup__exit')
 const popupText = document.querySelector('.popup__text')
-const body = document.body
+const bodyForm = document.body
 
 form.onsubmit = (e) => {
   e.preventDefault()
@@ -37,13 +36,13 @@ form.onsubmit = (e) => {
 			console.log(data)
       popupText.innerHTML = 'Ваши данные отправлены'
       popup.classList.remove('hidden')
-      body.classList.add('noscroll')
+      bodyForm.classList.add('noscroll')
       form.classList.add('noevent')
 		})
 		.catch(error => {
 			console.log(error)
       popup.classList.remove('hidden')
-      body.classList.add('noscroll')
+      bodyForm.classList.add('noscroll')
       form.classList.add('noevent')
       popupText.innerHTML = 'Ваши данные не дошли до нас'
 		})
@@ -52,7 +51,7 @@ form.onsubmit = (e) => {
 
 popupExit.addEventListener('click', () => {
   popup.classList.add('hidden')
-  body.classList.remove('noscroll')
+  bodyForm.classList.remove('noscroll')
   form.classList.remove('noevent')
 })
 

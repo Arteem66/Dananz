@@ -1,23 +1,22 @@
 const swiperWrapper = document.querySelector('.swiper-wrapper')
 const pageWidth = document.documentElement.scrollWidth
 
-
 const swiper = new Swiper('.swiper', {
 	// Optional parameters
 	direction: 'horizontal',
-	loop:true,
-	
+	loop: true,
+
 	// If we need pagination
 	pagination: {
 		el: '.swiper-pagination',
 	},
-	
+
 	// Navigation arrows
 	navigation: {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
 	},
-	
+
 	breakpoints: {
 		1230: {
 			enabled: false,
@@ -50,4 +49,3 @@ window.addEventListener('resize', function () {
 		swiperWrapper.classList.remove('designers__list')
 	}
 })
-
