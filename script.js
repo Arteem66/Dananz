@@ -7,7 +7,7 @@ const body = document.querySelector('body')
 
 burger.addEventListener('click', () => {
 	navList.classList.toggle('active__list')
-	headerWrapper.classList.toggle('active__list')
+	headerWrapper.classList.toggle('header__wrapper-active')
 	wrapper.classList.toggle('wrapper__active')
 	headerAbsolute.classList.toggle('header__absolute')
 	body.classList.toggle('noscroll')

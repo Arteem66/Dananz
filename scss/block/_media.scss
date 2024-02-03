@@ -9,7 +9,7 @@
 		margin: 0 auto;
 	}
 
-	.swiper-slide{
+	.swiper-slide {
 		max-width: 100%;
 	}
 
@@ -21,9 +21,9 @@
 	}
 }
 
-@media screen and (max-width: 1180px){
-		// -----------contact-------
-	
+@media screen and (max-width: 1180px) {
+	// -----------contact-------
+
 	.location__body-right {
 		gap: 25px;
 	}
@@ -73,7 +73,8 @@
 
 	.wrapper {
 		position: fixed;
-		transform: translateY(100%);
+		transform: translateY(-100%);
+		transition: transform 0.5s;
 	}
 	.wrapper__active {
 		transform: translateY(0);
@@ -81,7 +82,14 @@
 		background-color: $white;
 		z-index: 2;
 		width: 100%;
-		height: 40%;
+		height: 100%;
+		transition: transform 0.5s;
+	}
+
+	.header__wrapper-active {
+		flex-direction: column;
+		gap: 25px;
+		align-items: center;
 	}
 
 	.noscroll {
@@ -92,7 +100,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 30px;
+		gap: 25px;
 		margin: 0 auto;
 	}
 
@@ -185,7 +193,6 @@
 	.service__dignity-right {
 		align-self: flex-end;
 	}
-
 
 	// -----------portfolio-------
 
@@ -325,25 +332,25 @@
 }
 
 @media screen and (max-width: 750px) {
-	.contact__location-body{
+	.contact__location-body {
 		flex-direction: column;
 		align-items: center;
 	}
-	.location__body-left{
-		text-align: center
+	.location__body-left {
+		text-align: center;
 	}
 
-	.location__body-title{
+	.location__body-title {
 		margin-bottom: 0px;
 	}
-	.location__body-subtitle{
+	.location__body-subtitle {
 		margin-bottom: 20px;
 	}
-	.location__body-info{
+	.location__body-info {
 		margin-bottom: 20px;
 		gap: 0;
 	}
-	.store{
+	.store {
 		margin: 0 auto;
 		text-align: center;
 	}
@@ -476,10 +483,10 @@
 		margin-bottom: 10px;
 		gap: 10px;
 	}
-	.info__type{
+	.info__type {
 		font-size: 18px;
 	}
-	.info__contact{
+	.info__contact {
 		font-size: 16px;
 	}
 	.location__body-right {
@@ -491,17 +498,17 @@
 	}
 }
 
-@media screen and (max-width: 500px){
-	.designers__card{
+@media screen and (max-width: 500px) {
+	.designers__card {
 		max-width: 240px;
 		height: 340px;
 	}
 
-	.designer__name{
+	.designer__name {
 		font-size: 18px;
 	}
 
-	.designer__post{
+	.designer__post {
 		font-size: 14px;
 	}
 }
@@ -663,7 +670,7 @@
 		line-height: 120%;
 	}
 
-	.style__descr{
+	.style__descr {
 		font-size: 14px;
 	}
 
@@ -673,15 +680,15 @@
 
 	// --------------designers---------
 
-	.swiper{
+	.swiper {
 		padding: 0 0 60px;
 	}
 
-	.swiper-button-prev{
+	.swiper-button-prev {
 		bottom: 0px;
 		top: auto;
 	}
-	.swiper-button-next{
+	.swiper-button-next {
 		bottom: 0px;
 		top: auto;
 	}
